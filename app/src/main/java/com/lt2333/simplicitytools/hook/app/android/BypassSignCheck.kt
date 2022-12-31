@@ -1,10 +1,10 @@
 package com.lt2333.simplicitytools.hook.app.android
 
-import com.lt2333.simplicitytools.hook.app.android.BypassSignCheck.BaseHook
+import com.lt2333.simplicitytools.util.BaseHook
 import com.github.kyuubiran.ezxhelper.init.EzXHelperInit
 import com.github.kyuubiran.ezxhelper.utils.Log
 import com.github.kyuubiran.ezxhelper.utils.Log.logexIfThrow
-import com.lt2333.simplicitytools.hook.app.android.BypassSignCheck.android.*
+import com.lt2333.simplicitytools.util.GetMinimumSignatureSchemeVersionForTargetSdk
 import de.robv.android.xposed.IXposedHookLoadPackage
 import de.robv.android.xposed.callbacks.XC_LoadPackage
 
