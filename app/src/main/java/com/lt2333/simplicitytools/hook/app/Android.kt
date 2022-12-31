@@ -19,6 +19,7 @@ object Android : AppRegister() {
             MaxWallpaperScale, //壁纸缩放比例
             SystemPropertiesHook, //SystemPropertiesHook
             AllowUntrustedTouches, //允许不受信任的触摸
+            BypassSignCheck, //绕过安卓13系统分区apk签名校验
         )
     }
 
